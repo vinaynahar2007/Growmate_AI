@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GrowMate AI &#8212; AI Shopkeeper Copilot for small Indian businesses. Khata, customers, inventory, sales and insights in Hindi, English or English." />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <!--
+      CSP delivery notes:
+      • The FULL policy (incl. frame-ancestors / upgrade-insecure-requests) is sent as an
+        HTTP header by vite.config.ts (securityHeaders). Those two directives CANNOT be
+        delivered via <meta> — CSP3 §3.3 says user agents ignore them there.
+      • This <meta> is a fallback for hosts that cannot set custom response headers.
+        Keep it in sync with vite.config.ts, minus the header-only directives above.
+      • Google Fonts: the CSS comes from fonts.googleapis.com (style-src) and the font
+        files from fonts.gstatic.com (font-src).
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' http://localhost:*; object-src 'none'; base-uri 'self'; form-action 'self';" />
+    <title>GrowMate AI &#8212; Your entire shop, intelligent.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
